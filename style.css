@@ -133,3 +133,30 @@ form button:hover{
     border: 2px solid green;
 }
 
+.thematrix{
+    display: flex;
+    flex: 1;
+    background-image: url(images/insidethecode.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+a{
+    color:antiquewhite ;
+    text-decoration: none;
+}
+.wake:hover{
+    color: blue;
+    cursor:all-scroll;
+    transition: 0.7s;
+}
+.up:hover{
+    color: rgb(255, 0, 0);
+    cursor:all-scroll;
+    transition: 0.7s;
+}
